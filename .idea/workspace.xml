@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9863497c-4cab-443f-ab55-4424cd84cb89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/graph/num_of_connected_components.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/sorting/dutch_national_flag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/sorting/find_intersection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/sorting/kth_largest_in_stream.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/sorting/merge_first_into_second.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/sorting/online_median.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/sorting/top_k_frequent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/sorting/two_sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/tree/binary_tree_dia.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/tree/bst_from_preorder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/tree/ds.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/tree/path_sum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/tree/sigly_linkedlist_to_bst.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/tree/unival_trees.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ik/graph/is_graph_tree.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="num_of_connected_components.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="num_of_connected_components.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ik/graph/num_of_connected_components.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="is_graph_tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ik/graph/is_graph_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -136,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interview-questions/problem-1.py" />
         <option value="$PROJECT_DIR$/misc/graph_dfs.py" />
         <option value="$PROJECT_DIR$/misc/connectedSum.py" />
         <option value="$PROJECT_DIR$/leetcode/recursion/reverse_string.py" />
@@ -187,6 +183,7 @@
         <option value="$PROJECT_DIR$/ik/tree/bst_from_preorder.py" />
         <option value="$PROJECT_DIR$/ik/tree/unival_trees.py" />
         <option value="$PROJECT_DIR$/ik/graph/num_of_connected_components.py" />
+        <option value="$PROJECT_DIR$/ik/graph/is_graph_tree.py" />
       </list>
     </option>
   </component>
@@ -234,6 +231,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Problem-Solving" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Problem-Solving" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,25 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.num_of_connected_components">
-    <configuration default="false" name="binary_tree_dia" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ik/tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Problem-Solving" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ik/tree/binary_tree_dia.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.is_graph_tree">
     <configuration default="false" name="sigly_linkedlist_to_bst" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,6 +453,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="is_graph_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ik/graph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Problem-Solving" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ik/graph/is_graph_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -521,19 +536,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.binary_tree_dia" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sigly_linkedlist_to_bst" />
-      <item index="2" class="java.lang.String" itemvalue="Python.bst_from_preorder" />
-      <item index="3" class="java.lang.String" itemvalue="Python.unival_trees" />
-      <item index="4" class="java.lang.String" itemvalue="Python.num_of_connected_components" />
+      <item index="0" class="java.lang.String" itemvalue="Python.sigly_linkedlist_to_bst" />
+      <item index="1" class="java.lang.String" itemvalue="Python.bst_from_preorder" />
+      <item index="2" class="java.lang.String" itemvalue="Python.unival_trees" />
+      <item index="3" class="java.lang.String" itemvalue="Python.num_of_connected_components" />
+      <item index="4" class="java.lang.String" itemvalue="Python.is_graph_tree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.num_of_connected_components" />
-        <item index="1" class="java.lang.String" itemvalue="Python.unival_trees" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bst_from_preorder" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sigly_linkedlist_to_bst" />
-        <item index="4" class="java.lang.String" itemvalue="Python.binary_tree_dia" />
+        <item index="0" class="java.lang.String" itemvalue="Python.is_graph_tree" />
+        <item index="1" class="java.lang.String" itemvalue="Python.num_of_connected_components" />
+        <item index="2" class="java.lang.String" itemvalue="Python.unival_trees" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bst_from_preorder" />
+        <item index="4" class="java.lang.String" itemvalue="Python.sigly_linkedlist_to_bst" />
       </list>
     </recent_temporary>
   </component>
@@ -672,6 +687,11 @@
           <line>10</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ik/graph/is_graph_tree.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -680,7 +700,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="113" />
+      <option name="time" value="114" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -961,6 +981,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ik/graph/is_graph_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="45" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
           <folding />
         </state>
       </provider>
