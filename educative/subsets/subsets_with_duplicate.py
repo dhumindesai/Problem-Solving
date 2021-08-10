@@ -26,24 +26,39 @@ def is_freq_matching(current_set, num,  freq):
 #########From Educative###########
 
 def subsets_with_duplicates_2(nums):
-    # sort the numbers to handle duplicates
-    list.sort(nums)
-    subsets = []
-    subsets.append([])
-    startIndex, endIndex = 0, 0
-    for i in range(len(nums)):
-        startIndex = 0
-        # if current and the previous elements are same, create new subsets only from the subsets
-        # added in the previous step
-        if i > 0 and nums[i] == nums[i - 1]:
-            startIndex = endIndex + 1
-        endIndex = len(subsets) - 1
-        for j in range(startIndex, endIndex+1):
-            # create a new subset from the existing subset and add the current element to it
-            set1 = list(subsets[j])
-            set1.append(nums[i])
-            subsets.append(set1)
-    return subsets
+    result = []
+
+    def helper(i, slate):
+
+        # base case
+        if i == len(nums):
+            result.append(slate[:])
+            return
+
+        # recursive case
+        count = 1
+
+        # include
+        # count number of repeated characters
+        j = i
+        while j < len(nums) - 1 and nums[j] == nums[j + 1]:
+            count += 1
+            j += 1
+
+        for _ in range(count):
+            slate.append(nums[i])
+            helper(i + count, slate)
+
+        for _ in range(count):
+            slate.pop()
+
+        # exclude
+        helper(i + count, slate)
+
+    helper(0, [])
+
+    return result
+
 def main():
 
   print("Here is the list of subsets: " + str(subsets_with_duplicates_2([1, 3, 3])))
