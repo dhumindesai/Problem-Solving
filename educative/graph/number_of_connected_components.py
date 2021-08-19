@@ -37,3 +37,6 @@ n = 5
 edges = [[0 , 1],[1 , 2],[0 , 2],[3 , 4]]
 
 print(number_of_connected_components(n ,edges))
+
+import math
+math.pow(2,4)
